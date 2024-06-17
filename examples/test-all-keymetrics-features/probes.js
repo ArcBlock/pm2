@@ -1,6 +1,6 @@
 
 
-var io = require('@pm2/io');
+var io = require('@arcblock/pm2.io');
 
 var users = {
   'alex'  : 'ok',

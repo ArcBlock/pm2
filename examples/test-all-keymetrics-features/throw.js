@@ -1,5 +1,5 @@
 
-var axm = require('@pm2/io');
+var axm = require('@arcblock/pm2.io');
 
 setTimeout(function() {
   console.log('log message from echo auto kill');

@@ -1,5 +1,5 @@
 
-var Probe = require('@pm2/io').probe();
+var Probe = require('@arcblock/pm2.io').probe();
 
 var counter = 0;
 
