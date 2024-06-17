@@ -2,7 +2,7 @@ name: publish-beta-to-npm
 
 on:
   push:
-    branches: [feat-use-arcblock-pm2-io]
+    branches: [master]
 
 jobs:
   publish-beta-to-npm:
