@@ -1,6 +1,6 @@
 
 
-var axm = require('@pm2/io');
+var axm = require('@arcblock/pm2.io');
 
 var probe = axm.probe();
 

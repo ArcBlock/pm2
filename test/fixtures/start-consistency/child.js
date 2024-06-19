@@ -1,5 +1,5 @@
 
-require('@pm2/io').init({
+require('@arcblock/pm2.io').init({
   http : true
 });
 
