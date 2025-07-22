@@ -173,7 +173,7 @@
     "pm2-runtime": "bin/pm2-runtime"
   },
   "dependencies": {
-    "@arcblock/pm2.io": "~6.0.1",
+    "@arcblock/pm2.io": "~6.1.1",
     "@pm2/agent": "~2.1.1",
     "@pm2/js-api": "~0.8.0",
     "@pm2/pm2-version-check": "latest",
