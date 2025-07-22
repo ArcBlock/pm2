@@ -105,6 +105,7 @@
     "test:unit": "bash test/unit.sh",
     "test:e2e": "bash test/e2e.sh",
     "test": "bash test/unit.sh && bash test/e2e.sh",
+    "bump-version": "zx scripts/bump-version.mjs",
     "build": "echo 'build successfully!'"
   },
   "keywords": [
@@ -173,8 +174,8 @@
   },
   "dependencies": {
     "@arcblock/pm2.io": "~6.0.1",
-    "@pm2/js-api": "~0.8.0",
     "@pm2/agent": "~2.1.1",
+    "@pm2/js-api": "~0.8.0",
     "@pm2/pm2-version-check": "latest",
     "ansis": "4.0.0-node10",
     "async": "~3.2.6",
@@ -208,8 +209,9 @@
     "pm2-sysmonit": "^1.2.8"
   },
   "devDependencies": {
-    "should": "^13.2.3",
+    "bumpp": "^10.2.0",
     "mocha": "^10.8.0",
+    "should": "^13.2.3",
     "zx": "^8.1.2"
   },
   "bugs": {
