@@ -1,3 +1,7 @@
+## 6.0.10 (2025-7-22)
+
+- chore: update deps
+
 ## 6.0.9 (2025-7-22)
 
 - chore: upgrade pm2 to 6.0.8
