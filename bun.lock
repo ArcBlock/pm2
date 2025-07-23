@@ -21,7 +21,6 @@
         "eventemitter2": "5.0.1",
         "fclone": "1.0.11",
         "fs-extra": "^11.2.0",
-        "heapdump": "^0.3.15",
         "js-yaml": "~4.1.0",
         "lodash": "^4.17.21",
         "mkdirp": "1.0.4",
@@ -51,9 +50,6 @@
         "pm2-sysmonit": "^1.2.8",
       },
     },
-  },
-  "overrides": {
-    "node-gyp": "9.4.0",
   },
   "packages": {
     "@arcblock/pm2.io": ["@arcblock/pm2.io@6.1.2", "", { "dependencies": { "async": "~2.6.1", "dayjs": "^1.11.11", "debug": "~4.3.1", "eventemitter2": "^6.3.1", "require-in-the-middle": "^5.0.0", "semver": "~7.5.4", "shimmer": "^1.2.0", "signal-exit": "^3.0.3", "tslib": "1.9.3" } }, "sha512-7ju9L+MacsYxYtHRjvKhSyJRsVQTqcFvqXPMx0VA9IpAarI0j8aOx8f4w7l3Vsb7ew/N0UeR38i0/ze6UcBn7g=="],
@@ -344,8 +340,6 @@
 
     "he": ["he@1.2.0", "", { "bin": "bin/he" }, ""],
 
-    "heapdump": ["heapdump@0.3.15", "", { "dependencies": { "nan": "^2.13.2" } }, "sha512-n8aSFscI9r3gfhOcAECAtXFaQ1uy4QSke6bnaL+iymYZ/dWs9cqDqHM+rALfsHUwukUbxsdlECZ0pKmJdQ/4OA=="],
-
     "http-cache-semantics": ["http-cache-semantics@4.2.0", "", {}, "sha512-dTxcvPXqPvXBQpq5dUr6mEMJX4oIEFv6bwom3FDwKRDsuIjjJGANqhBuoAn9c1RQJIdAKav33ED65E2ys+87QQ=="],
 
     "http-proxy-agent": ["http-proxy-agent@5.0.0", "", { "dependencies": { "@tootallnate/once": "2", "agent-base": "6", "debug": "4" } }, "sha512-n2hY8YdoRE1i7r6M0w9DIw5GgZN0G25P8zLCRQ8rjXtTU3vsNFBI/vWK/UIeE6g5MUUz6avwAPXmL6Fy9D/90w=="],
@@ -455,8 +449,6 @@
     "ms": ["ms@2.1.3", "", {}, ""],
 
     "mute-stream": ["mute-stream@0.0.8", "", {}, ""],
-
-    "nan": ["nan@2.23.0", "", {}, "sha512-1UxuyYGdoQHcGg87Lkqm3FzefucTa0NAiOcuRsDmysep3c1LVCRK2krrUDafMWtjSG04htvAmvg96+SDknOmgQ=="],
 
     "natural-compare": ["natural-compare@1.4.0", "", {}, "sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw=="],
 

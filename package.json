@@ -193,7 +193,6 @@
     "eventemitter2": "5.0.1",
     "fclone": "1.0.11",
     "fs-extra": "^11.2.0",
-    "heapdump": "^0.3.15",
     "js-yaml": "~4.1.0",
     "lodash": "^4.17.21",
     "mkdirp": "1.0.4",
@@ -229,14 +228,5 @@
     "type": "git",
     "url": "git://github.com/Unitech/pm2.git"
   },
-  "license": "AGPL-3.0",
-  "overrides": {
-    "node-gyp": "$node-gyp",
-    "heapdump": {
-      "node-gyp": "$node-gyp"
-    }
-  },
-  "resolutions": {
-    "node-gyp": "9.4.0"
-  }
+  "license": "AGPL-3.0"
 }
