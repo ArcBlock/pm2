@@ -52,6 +52,9 @@
       },
     },
   },
+  "overrides": {
+    "node-gyp": "9.4.0",
+  },
   "packages": {
     "@arcblock/pm2.io": ["@arcblock/pm2.io@6.1.2", "", { "dependencies": { "async": "~2.6.1", "dayjs": "^1.11.11", "debug": "~4.3.1", "eventemitter2": "^6.3.1", "require-in-the-middle": "^5.0.0", "semver": "~7.5.4", "shimmer": "^1.2.0", "signal-exit": "^3.0.3", "tslib": "1.9.3" } }, "sha512-7ju9L+MacsYxYtHRjvKhSyJRsVQTqcFvqXPMx0VA9IpAarI0j8aOx8f4w7l3Vsb7ew/N0UeR38i0/ze6UcBn7g=="],
 
