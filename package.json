@@ -231,6 +231,7 @@
   },
   "license": "AGPL-3.0",
   "overrides": {
+    "node-gyp": "$node-gyp",
     "heapdump": {
       "node-gyp": "$node-gyp"
     }
