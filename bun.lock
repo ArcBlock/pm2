@@ -4,7 +4,7 @@
     "": {
       "name": "pm2",
       "dependencies": {
-        "@arcblock/pm2.io": "~6.1.1",
+        "@arcblock/pm2.io": "~6.1.2",
         "@pm2/agent": "~2.1.1",
         "@pm2/js-api": "~0.8.0",
         "@pm2/pm2-version-check": "latest",
@@ -48,7 +48,7 @@
     },
   },
   "packages": {
-    "@arcblock/pm2.io": ["@arcblock/pm2.io@6.1.1", "", { "dependencies": { "async": "~2.6.1", "bumpp": "^10.2.0", "dayjs": "^1.11.11", "debug": "~4.3.1", "eventemitter2": "^6.3.1", "require-in-the-middle": "^5.0.0", "semver": "~7.5.4", "shimmer": "^1.2.0", "signal-exit": "^3.0.3", "tslib": "1.9.3" } }, "sha512-GEse2DO36hznsynrBMcWqAOcQSZVB3GB9EgKJBSmXKj3KMNzyJN+qM7WmNp2GEdnjb18pysyqAS8sXuzLNjgBA=="],
+    "@arcblock/pm2.io": ["@arcblock/pm2.io@6.1.2", "", { "dependencies": { "async": "~2.6.1", "dayjs": "^1.11.11", "debug": "~4.3.1", "eventemitter2": "^6.3.1", "require-in-the-middle": "^5.0.0", "semver": "~7.5.4", "shimmer": "^1.2.0", "signal-exit": "^3.0.3", "tslib": "1.9.3" } }, "sha512-7ju9L+MacsYxYtHRjvKhSyJRsVQTqcFvqXPMx0VA9IpAarI0j8aOx8f4w7l3Vsb7ew/N0UeR38i0/ze6UcBn7g=="],
 
     "@pm2/agent": ["@pm2/agent@2.1.1", "", { "dependencies": { "async": "~3.2.0", "chalk": "~3.0.0", "dayjs": "~1.8.24", "debug": "~4.3.1", "eventemitter2": "~5.0.1", "fast-json-patch": "^3.1.0", "fclone": "~1.0.11", "pm2-axon": "~4.0.1", "pm2-axon-rpc": "~0.7.0", "proxy-agent": "~6.4.0", "semver": "~7.5.0", "ws": "~7.5.10" } }, ""],
 
