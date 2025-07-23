@@ -1,3 +1,7 @@
+## 6.0.11 (2025-7-23)
+
+- feat: support collect memory snapshot(pm2 profile:mem-snapshot)
+
 ## 6.0.10 (2025-7-22)
 
 - chore: update deps
