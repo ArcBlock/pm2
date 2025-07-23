@@ -1,5 +1,6 @@
 {
   "cSpell.words": [
     "arcblock"
-  ]
+  ],
+  "editor.formatOnSave": false,
 }
