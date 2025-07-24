@@ -4,7 +4,7 @@
   "publishConfig": {
     "access": "public"
   },
-  "version": "6.0.10",
+  "version": "6.0.11",
   "engines": {
     "node": ">=16.0.0"
   },
@@ -106,7 +106,10 @@
     "test:e2e": "bash test/e2e.sh",
     "test": "bash test/unit.sh && bash test/e2e.sh",
     "bump-version": "zx scripts/bump-version.mjs",
-    "build": "echo 'build successfully!'"
+    "build": "echo 'build successfully!'",
+    "deploy": "npm run build && zx scripts/deploy.mjs",
+    "lint": "eslint lib/ constants.js index.js",
+    "lint:fix": "eslint lib/ constants.js index.js --fix"
   },
   "keywords": [
     "cli",
@@ -209,10 +212,14 @@
     "pm2-sysmonit": "^1.2.8"
   },
   "devDependencies": {
+    "@eslint/js": "^9.31.0",
     "bumpp": "^10.2.0",
+    "eslint": "^9.31.0",
+    "globals": "^16.3.0",
     "mocha": "^10.8.0",
     "should": "^13.2.3",
-    "zx": "^8.1.2"
+    "zx": "^8.1.2",
+    "node-gyp": "9.4.0"
   },
   "bugs": {
     "url": "https://github.com/Unitech/pm2/issues"
