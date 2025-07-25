@@ -1,0 +1,28 @@
+# VSCode 设置规则
+
+## 自动格式化配置
+- 配置文件：[.vscode/settings.json](mdc:.vscode/settings.json)
+- 完全禁用自动格式化功能
+
+## 禁用的格式化功能
+- `editor.formatOnSave: false` - 保存时不格式化
+- `editor.formatOnPaste: false` - 粘贴时不格式化
+- `editor.formatOnType: false` - 输入时不格式化
+- `editor.defaultFormatter: null` - 移除默认格式化器
+- `javascript.format.enable: false` - 禁用 JavaScript 格式化
+- `typescript.format.enable: false` - 禁用 TypeScript 格式化
+- `json.format.enable: false` - 禁用 JSON 格式化
+
+## 语言特定设置
+- JavaScript 文件：禁用所有格式化
+- TypeScript 文件：禁用所有格式化
+- JSON 文件：禁用所有格式化
+
+## 目的
+- 保持代码格式完全不变
+- 避免不必要的 diff
+- 让开发者完全控制代码格式
+description:
+globs:
+alwaysApply: false
+---

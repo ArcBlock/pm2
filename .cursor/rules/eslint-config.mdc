@@ -1,0 +1,31 @@
+# ESLint 配置规则
+
+## 当前配置
+- 配置文件：[eslint.config.js](mdc:eslint.config.js)
+- 使用宽松规则，不强制格式化代码
+- 只检查真正的代码错误，不修改格式
+
+## 规则说明
+- `indent: 'off'` - 不强制缩进格式
+- `quotes: 'off'` - 不强制引号风格
+- `semi: 'off'` - 不强制分号
+- `no-undef: 'error'` - 检查未定义变量
+- 其他格式化规则全部关闭
+
+## 使用方法
+```bash
+# 检查问题
+npm run lint
+
+# 自动修复（只修复真正的错误）
+npm run lint:fix
+```
+
+## 注意事项
+- 不要修改任何代码格式
+- 只修复语法错误和未定义变量
+- 保持原有代码结构不变
+description:
+globs:
+alwaysApply: false
+---

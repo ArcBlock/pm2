@@ -1,0 +1,28 @@
+# PM2 项目规则
+
+## 项目结构
+- 主入口文件：[index.js](mdc:index.js)
+- 核心守护进程：[lib/Daemon.js](mdc:lib/Daemon.js)
+- CLI 工具：[lib/binaries/CLI.js](mdc:lib/binaries/CLI.js)
+- API 接口：[lib/API.js](mdc:lib/API.js)
+- 配置文件：[package.json](mdc:package.json)
+
+## 代码风格
+- 不要强制格式化代码，保持原有代码结构
+- 不要自动添加分号或修改引号风格
+- 保持原有的缩进和空格使用方式
+- 只修复真正的代码错误，不修改格式
+
+## 开发工具
+- ESLint 配置：[eslint.config.js](mdc:eslint.config.js) - 使用宽松规则
+- VSCode 设置：[.vscode/settings.json](mdc:.vscode/settings.json) - 禁用自动格式化
+- 测试目录：[test/](mdc:test/) - 包含单元测试和端到端测试
+
+## 部署
+- 使用 `npm run deploy` 进行部署
+- 部署脚本会先卸载旧版本，再安装新版本
+- 即使卸载失败也会继续安装步骤
+description:
+globs:
+alwaysApply: false
+---

@@ -1,0 +1,37 @@
+# Node.js 兼容性规则
+
+## Node.js v22+ 安全限制
+- `process.binding` 在 Node.js 22+ 中默认被禁止
+- 需要使用 `--allow-process-binding` 参数来允许访问
+- 影响使用 `process-on-spawn` 等老库的项目
+
+## 解决方案
+### 1. 启动参数
+```bash
+node --allow-process-binding your-script.js
+```
+
+### 2. Package.json 脚本
+```json
+{
+  "scripts": {
+    "start": "node --allow-process-binding index.js"
+  }
+}
+```
+
+### 3. 降级 Node.js 版本
+- 使用 Node.js v18 LTS 版本
+- 避免使用 Node.js v22+ 的新安全限制
+
+## 相关 Issue
+- [nodejs/node#59189](https://github.com/nodejs/node/issues/59189)
+- [nodejs/node#59168](https://github.com/nodejs/node/issues/59168)
+
+## 测试环境
+- GitHub Actions 配置：[.github/workflows/node.js.yml](mdc:.github/workflows/node.js.yml)
+- 支持 Python 3.10 安装
+description:
+globs:
+alwaysApply: false
+---
