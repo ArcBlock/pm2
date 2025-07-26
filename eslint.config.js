@@ -4,7 +4,7 @@ const globals = require('globals');
 module.exports = [
   {
     languageOptions: {
-      ecmaVersion: 2018,
+      ecmaVersion: 2022,
       sourceType: 'script',
       globals: {
         ...globals.node,
