@@ -1,3 +1,7 @@
+## 6.0.12 (2025-7-26)
+
+- fix: memory leak
+
 ## 6.0.11 (2025-7-23)
 
 - feat: support collect memory snapshot(pm2 profile:mem-snapshot)
